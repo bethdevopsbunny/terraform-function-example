@@ -1,4 +1,3 @@
-
 resource "google_service_account" "default" {
   project      = var.project
   account_id   = "${local.function_name}-sa"
